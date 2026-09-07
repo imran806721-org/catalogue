@@ -42,8 +42,8 @@ pipeline {
             steps {
                 script {
                     sh """
-                        echo "No unit tests configured for catalogue"
-                   """
+                        npm test
+                    """
                 }
             }
       }
