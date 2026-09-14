@@ -9,6 +9,5 @@ if (env.BRANCH_NAME.equalsIgnoreCase('main')){
     nodejsEKSMain(configMap)
 }
 else {
-    // nodejsEKSMain(configMap) 
     nodejsEKSPipeline(configMap)
 }
