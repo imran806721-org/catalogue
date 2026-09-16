@@ -6,7 +6,7 @@ def configMap = [
 ]
 
 if (env.BRANCH_NAME.equalsIgnoreCase('main')){
-    nodejsEKSpipeline(configMap)
+    nodejsEKSMain(configMap)
 }
 else {
     // nodejsEKSMain(configMap) 
